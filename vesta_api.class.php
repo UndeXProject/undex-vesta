@@ -1,9 +1,9 @@
 <?php
 class VestaApi {
  
-    public $vst_host;
-    public $vst_user;
-    public $vst_pass;
+    private $vst_host;
+    private $vst_user;
+    private $vst_pass;
  
     function __construct($vst_host, $vst_user, $vst_pass){
         $this->host = $vst_host;
